@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		57BC6AA42A726F5B00DBF208 /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AA32A726F5B00DBF208 /* InstagramCloneApp.swift */; };
-		57BC6AA62A726F5B00DBF208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AA52A726F5B00DBF208 /* ContentView.swift */; };
+		57BC6AA62A726F5B00DBF208 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AA52A726F5B00DBF208 /* MainView.swift */; };
 		57BC6AA82A726F6100DBF208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BC6AA72A726F6100DBF208 /* Assets.xcassets */; };
 		57BC6AAB2A726F6100DBF208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BC6AAA2A726F6100DBF208 /* Preview Assets.xcassets */; };
+		57BC6AB42A72700900DBF208 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AB32A72700900DBF208 /* HomeScreen.swift */; };
+		57BC6AB62A72703100DBF208 /* HomeScreenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AB52A72703100DBF208 /* HomeScreenHeader.swift */; };
+		57BC6AB82A7272B000DBF208 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AB72A7272B000DBF208 /* StoriesView.swift */; };
+		57BC6ABA2A7272CA00DBF208 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6AB92A7272CA00DBF208 /* StoryView.swift */; };
+		57BC6ABC2A727B9700DBF208 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6ABB2A727B9700DBF208 /* TabBarView.swift */; };
+		57BC6ABE2A727F5500DBF208 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC6ABD2A727F5500DBF208 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57BC6AA02A726F5B00DBF208 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BC6AA32A726F5B00DBF208 /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
-		57BC6AA52A726F5B00DBF208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57BC6AA52A726F5B00DBF208 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		57BC6AA72A726F6100DBF208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57BC6AAA2A726F6100DBF208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57BC6AB32A72700900DBF208 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		57BC6AB52A72703100DBF208 /* HomeScreenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenHeader.swift; sourceTree = "<group>"; };
+		57BC6AB72A7272B000DBF208 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		57BC6AB92A7272CA00DBF208 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		57BC6ABB2A727B9700DBF208 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		57BC6ABD2A727F5500DBF208 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,10 @@
 		57BC6AA22A726F5B00DBF208 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				57BC6AB22A726FBE00DBF208 /* Screens */,
+				57BC6AB12A726F9900DBF208 /* Views */,
 				57BC6AA32A726F5B00DBF208 /* InstagramCloneApp.swift */,
-				57BC6AA52A726F5B00DBF208 /* ContentView.swift */,
+				57BC6AA52A726F5B00DBF208 /* MainView.swift */,
 				57BC6AA72A726F6100DBF208 /* Assets.xcassets */,
 				57BC6AA92A726F6100DBF208 /* Preview Content */,
 			);
@@ -65,6 +79,26 @@
 				57BC6AAA2A726F6100DBF208 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57BC6AB12A726F9900DBF208 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57BC6AB52A72703100DBF208 /* HomeScreenHeader.swift */,
+				57BC6AB72A7272B000DBF208 /* StoriesView.swift */,
+				57BC6AB92A7272CA00DBF208 /* StoryView.swift */,
+				57BC6ABB2A727B9700DBF208 /* TabBarView.swift */,
+				57BC6ABD2A727F5500DBF208 /* PostView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57BC6AB22A726FBE00DBF208 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				57BC6AB32A72700900DBF208 /* HomeScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BC6AA62A726F5B00DBF208 /* ContentView.swift in Sources */,
+				57BC6ABA2A7272CA00DBF208 /* StoryView.swift in Sources */,
+				57BC6AA62A726F5B00DBF208 /* MainView.swift in Sources */,
+				57BC6ABE2A727F5500DBF208 /* PostView.swift in Sources */,
+				57BC6ABC2A727B9700DBF208 /* TabBarView.swift in Sources */,
+				57BC6AB82A7272B000DBF208 /* StoriesView.swift in Sources */,
 				57BC6AA42A726F5B00DBF208 /* InstagramCloneApp.swift in Sources */,
+				57BC6AB42A72700900DBF208 /* HomeScreen.swift in Sources */,
+				57BC6AB62A72703100DBF208 /* HomeScreenHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InstagramClone/Preview Content\"";
+				DEVELOPMENT_TEAM = MS75L7LS2B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InstagramClone/Preview Content\"";
+				DEVELOPMENT_TEAM = MS75L7LS2B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
